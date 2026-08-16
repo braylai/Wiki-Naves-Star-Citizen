@@ -210,17 +210,49 @@ a:hover {
     box-shadow: 0 0.6rem 0.6rem rgba(18, 72, 130, 0.6);
 }
 
-.link-inicio,
+footer {
+    margin-top: 200px;
+    background-color: black;
+    padding: 5px 20px 80px;
+    color: #d9ddeb;
+}
+
+.copyright {
+    padding: 25px;
+    margin: 0px;
+    float: left;
+    font-size: 24px;
+    width: 50px;
+}
+
+footer a {
+    transition: color 0.8s ease;
+}
+
+.link-inicio {
+    padding: 25px;
+    float: right;
+    text-decoration: none;
+    font-size: 24px;
+    color: lightskyblue;
+}
+
 .secondlink {
     padding: 25px;
     float: right;
     text-decoration: none;
     font-size: 24px;
     color: lightskyblue;
-    transition: color 0.8s ease;
 }
 
-.link-inicio:hover,
+.link-inicio:hover {
+    color: #195da2;
+}
+
 .secondlink:hover {
-    color: red;
+    color: #195da2;
+}
+
+a:hover {
+    text-decoration: none;
 }
