@@ -13,7 +13,7 @@ header {
     background-color: black;
     color: #d9ddeb;
     padding: 2px 25px;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .imagen-1 {
@@ -86,17 +86,18 @@ a:hover {
     flex-direction: column;
     flex: 1;
     position: relative;
-    top: 200px;
-    background-color: rgb(45, 8, 76);
-    border-radius: 10px;
+    top: 100px;
+    background-color: rgba(1, 70, 102, 0.6);
     color: rgb(207, 214, 219);
     display: flex;
     gap: 30px;
     width: 250px;
-    padding: 20px;
-    border: 1px solid black;
+    padding: 25px;
     border-radius: 10px;
+    border: 1px solid black;
+    transition: box-shadow 0.5s ease;
 }
+
 
 .tabla {
     text-align: left;
@@ -112,6 +113,57 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     gap: 0.5px;
     font-size: 20px;
-    background-color: rgb(45, 8, 76);
+    background-color: rgba(1, 70, 102, 0.1);
     border-radius: 10px;
+}
+
+.titulotabla {
+    color: lightskyblue;
+}
+
+.container:hover {
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    margin-top: 200px;
+    background-color: black;
+    padding: 5px 20px 70px;
+    color: #d9ddeb;
+}
+
+.copyright {
+    padding: 25px;
+    margin: 0px;
+    float: left;
+    font-size: 24px;
+    width: 50px;
+}
+
+footer a {
+    transition: color 0.6s ease;
+}
+
+.link-inicio {
+    padding: 25px;
+    float: right;
+    text-decoration: none;
+    font-size: 24px;
+    color: lightskyblue;
+}
+.secondlink {
+    padding: 25px;
+    float: right;
+    text-decoration: none;
+    font-size: 24px;
+    color: lightskyblue;
+}
+
+.link-inicio:hover {
+    color: #195da2;
+}
+
+.secondlink:hover {
+    color: #195da2;
+    text-decoration: underline;
 }
