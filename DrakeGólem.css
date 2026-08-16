@@ -131,7 +131,7 @@ img {
 }
 
 .link:hover {
-    color: #195da2;
+    color: #0066ff;
     text-decoration: none;
 }
 
@@ -232,6 +232,6 @@ footer a {
 }
 
 footer a:hover {
-    color: #195da2 !important;
+    color: #174f8c !important;
     text-decoration: none;
 }
