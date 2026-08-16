@@ -82,7 +82,8 @@ a {
 
 header {
     background: #000000 !important;
-    color: #d9ddeb;
+    border: 10px solid lime !important;
+    color: white;
     padding: 2px 25px;
     font-size: 25px;
 }
@@ -131,9 +132,8 @@ img {
 }
 
 .link:hover {
-    color: #000000 !important;
+    color: #00f0f8 !important;
     text-decoration: none;
-    opacity: 1;
 }
 
 .texto-3 {
@@ -233,7 +233,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #0000 !important;
+    color: #00f0f8!important;
     text-decoration: none;
     opacity: 1;
 }
