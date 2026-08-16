@@ -81,7 +81,8 @@ a {
 }
 
 header {
-    background: #000000 !important;
+    background-color: rgb(0, 0, 0) !important;
+    background-image: none !important;
     box-shadow: none !important;
     opacity: 1 !important;
     filter: none !important;
