@@ -82,8 +82,10 @@ a {
 
 header {
     background: #000000 !important;
-    border: 10px solid lime !important;
-    color: white;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    filter: none !important;
+    color: #d9ddeb;
     padding: 2px 25px;
     font-size: 25px;
 }
