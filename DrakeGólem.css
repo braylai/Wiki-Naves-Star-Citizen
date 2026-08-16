@@ -81,8 +81,8 @@ a {
 }
 
 header {
-    background-color: #000000;
-    color: #d9ddeb;
+    background-color: red !important;
+    color: white;
     padding: 2px 25px;
     font-size: 25px;
 }
@@ -131,7 +131,7 @@ img {
 }
 
 .link:hover {
-    color: #0066ff;
+    color: #00255d;
     text-decoration: none;
 }
 
@@ -232,6 +232,6 @@ footer a {
 }
 
 footer a:hover {
-    color: #174f8c !important;
+    color: #00255d !important;
     text-decoration: none;
 }
