@@ -235,6 +235,6 @@ footer a {
 }
 
 footer a:hover {
-    color: #195da2 !important;
+    color: red !important;
     text-decoration: none;
 }
