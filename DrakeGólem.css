@@ -66,7 +66,7 @@ a {
 }
 
 .lista-principal li a:hover {
-    transition: background 1.2s ease;    
+    transition: background 1.2s ease; 
     text-decoration: none;
     background: #2971c4
 }
