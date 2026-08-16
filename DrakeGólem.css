@@ -126,16 +126,13 @@ img {
 .link {
     text-decoration: none;
     font-size: 20px;
-    color:lightskyblue
-}
-
-a {
+    color: lightskyblue;
     transition: color 0.7s ease;
 }
 
-a:hover {
+.link:hover {
     color: #195da2;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .texto-3 {
@@ -235,6 +232,6 @@ footer a {
 }
 
 footer a:hover {
-    color: red !important;
+    color: #195da2 !important;
     text-decoration: none;
 }
