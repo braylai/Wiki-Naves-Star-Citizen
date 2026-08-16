@@ -246,13 +246,9 @@ footer a {
 }
 
 .link-inicio:hover {
-    color: #195da2;
+    color: red !important;
 }
 
 .secondlink:hover {
-    color: #195da2;
-}
-
-a:hover {
-    text-decoration: none;
+    color: red !important;
 }
