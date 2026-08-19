@@ -93,8 +93,8 @@ img {
 
 .imagen-1 {
     margin-left: 15px;
-    float: left;
-    width: 800px;
+    float: right;
+    width: 700px;
     border-color: black;
     border-radius: 12px;
     border: 1px solid black;
@@ -103,6 +103,43 @@ img {
 .imagen-1:hover {
     box-shadow: 0 0.6rem 0.6rem rgba(18, 72, 130, 0.6);
 }
+
+.botones2 {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 62.5rem;
+    margin-top: 400px;
+}
+
+#anterior {
+    background-color: rgba(18, 72, 130, 0.3);
+    border: none;
+    color: lightskyblue;
+    font-size: 20px;
+    border-radius: 3px;
+    transition: background 0.8s ease;
+}
+
+#siguiente {
+     background-color: rgba(18, 72, 130, 0.3);
+    border: none;
+    color: lightskyblue;
+    font-size: 20px;
+    border-radius: 3px;
+    transition: background 0.8s ease;
+}
+
+#anterior:hover {
+    background: #2971c4;
+    color: rgb(67, 205, 255);
+}
+
+#siguiente:hover {
+    background: #2971c4;
+    color: rgb(67, 205, 255);
+}
+
 
 .separador {
     width: 100%;
@@ -114,7 +151,7 @@ img {
 .texto-1 {
     display: inline;
     float: left;
-    width: 400px;
+    width: 600px;
     margin-left: 15px;
     font-size: 20px;
     color: #d9ddeb;
