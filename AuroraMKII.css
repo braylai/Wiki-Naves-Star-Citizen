@@ -87,20 +87,41 @@ header {
     font-size: 25px;
 }
 
-img {
-    transition: box-shadow 0.8s ease;
+.contenedor-imagen-1 {
+    width: 700px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+
+.contenedor-imagen-1:hover {
+    border: 2px solid lightskyblue;
 }
 
 .imagen-1 {
     margin-left: 15px;
     float: right;
     width: 700px;
+    transition: transform 0.5s ease;
+}
+
+.imagen-1:hover {
+    transform: scale(1.15);
+}
+
+.imagen-2 {
+    margin-right: 20px;
+    width: 700px;
+    float: right;
     border-color: black;
     border-radius: 12px;
     border: 1px solid black;
 }
 
-.imagen-1:hover {
+.imagen-2:hover {
     box-shadow: 0 0.6rem 0.6rem rgba(18, 72, 130, 0.6);
 }
 
@@ -225,19 +246,6 @@ a:hover {
     clear: both;
     width: 600px;
     color: #d9ddeb;
-}
-
-.imagen-2 {
-    margin-right: 20px;
-    width: 700px;
-    float: right;
-    border-color: black;
-    border-radius: 12px;
-    border: 1px solid black;
-}
-
-.imagen-2:hover {
-    box-shadow: 0 0.6rem 0.6rem rgba(18, 72, 130, 0.6);
 }
 
 .texto-8 {
